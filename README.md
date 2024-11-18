@@ -11,23 +11,23 @@ Tests cover some of the most business critical functionality available at [https
 1. Verify login error message: ensure that locked-out users cannot login.
 2. Verify products sorting: ensure that default sorting by 'Name (A to Z)' is available to users and it is possible for them to change the sorting order.
 3. Add product to cart and finish order: ensure that it is possible for a standard user to 
-		- login;
-		- add item to a shopping cart;
-		- verify item's details in the cart;
-		- successfully complete ordering process;
-		- 'Thank you' message is shown at the end of the process.
+	- login;
+	- add item to a shopping cart;
+	- verify item's details in the cart;
+	- successfully complete ordering process;
+	- 'Thank you' message is shown at the end of the process.
 
 ## To run Web UI tests using Playwright:
 1. Clone this repository to your machine.
 2. Open folder with tests (ui-tests) in IDE/terminal. 
-3. Install all required dependencies from package.json file, before running the tests for the first time. 
-This can be done using the next command:
-	npm install
-If you skipped browser installation, you can install them later manulally using command:
-    npx playwright install
-To install a specific single browser use:
-	npx playwright install chromium
-4. To run all tests use command 
-	npx playwright test
-5. To view the tests results with the built-in Playwright report viewer run   
-    npx playwright show-report
+3. Install all required dependencies from package.json file, before running the tests for the first time.<br>
+   This can be done using the next command:<br>
+	**npm install**<br>
+If you skipped browser installation, you need to install them manulally using command:<br>
+	**npx playwright install**<br>
+To install a specific single browser use:<br>
+	**npx playwright install chromium**<br>
+5. To run all tests use command<br>
+	**npx playwright test**<br>
+7. To view the tests results with the built-in Playwright report viewer run<br>
+	**npx playwright show-report**<br>
