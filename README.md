@@ -7,7 +7,7 @@
 This project contains Web UI tests created using Playwright and TypeScript.
 Tests cover some of the most business critical functionality available at [https://www.saucedemo.com].
 
-GitHub Action workflow was added to the project. This allows to run tests on each push and pull request into the main branch.
+GitHub Actions workflow was added to the project. This allows to run tests on each push and pull request into the main branch.
 
 ## Tests:
 1. Verify login error message: ensure that locked-out users cannot login.
